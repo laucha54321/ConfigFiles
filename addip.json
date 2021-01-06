@@ -1,0 +1,10 @@
+{
+  "name": "Add IP",
+  "script_path": "/scripts/addip.sh",
+  "description": "This script adds an IP address to the list of IPs that can access the Script Server Web Application, in order for it to take effect you should restart the web application.",
+  "parameters":[{
+  	"name":"IP",
+	"type":"IPv4",
+	"required":"true"
+  }]
+}
