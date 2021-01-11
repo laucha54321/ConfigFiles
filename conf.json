@@ -3,10 +3,14 @@
   "address": "0.0.0.0",
   "title": "Script Server",
   "access": {
-	"allowed_users": ["127.0.0.1","181.230.30.20"],
-	"admin_users": ["181.230.30.20"],
-	"groups": {},
-	"trusted_ips": ["127.0.0.1","192.168.0.137","181.230.30.20"]
+    "allowed_users": [
+      "192.168.0.137"
+    ],
+    "admin_users": [],
+    "groups": {},
+    "trusted_ips": [
+      "127.0.0.1"
+    ]
   },
   "logging": {
     "execution_file": "$DATE-$ID.log",

@@ -1,7 +1,7 @@
 {
   "name": "Add IP",
   "script_path": "/scripts/addip.sh",
-  "description": "This script adds an IP address to the list of IPs that can access the Script Server Web Application, in order for it to take effect you should restart the web application.",
+  "description": "If this script is executed without any IP address as an input it will display a list with all the allowed IPs. If you input an IP address then the script will add it to the web application list of allowed IPs. The Web Application has to be restarted in order for it to work.",
   "parameters":[{
   	"name":"IP",
 	"type":"IPv4",
