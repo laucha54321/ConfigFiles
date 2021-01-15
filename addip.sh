@@ -5,8 +5,8 @@
 #To add an ip you have to pass the ip as a parameter when executing the script.
 
 #Files location conf.json and backups ↓↓↓↓
-conffile="/scriptserver/conf/conf.json"
-confdir="/scriptserver/conf/bak"
+conffile="/work/scriptserver/conf/conf.json"
+confdir="/work/scriptserver/conf/bak"
 
 #This function outputs the list of IPs that are allowed to enter the Script Server Web App ↓↓↓↓
 ShowList(){
