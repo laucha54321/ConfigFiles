@@ -7,3 +7,4 @@ Una vez instalado el script server las carpetas van ordenadas de la siguiente ma
 3. El conf.json se ubica en /scriptserver/conf
 4. El addip.json se ubica en /scriptserver/conf/runners
 5. Y addip.sh se ubica en /scripts (pero puede ser modificado desde el archivo .json con el mismo nombre).
+6. Para que el programa arranque en los reboots hay que agregar al crontab esto: @reboot /work/scriptserver/launcher.py
