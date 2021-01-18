@@ -30,7 +30,9 @@ if [ -z $1 ]
 		echo "This is the list of IP addresses that are allowed in the server."
 		ShowList
 	else
-		var=$(jq --arg ip "$1" '.access.trusted_ips [.access.trusted_ips| length] += $ip' $conffile)
+		var=$(jq --arg ip "$1" '.access.trusted_ips [.access.trusted_ips | length] += $ip' $conffile)
+		UpdateList $var
+		var=$(jq --arg ip "$1" '.access.allowed_users [.access.allowed_users | length] += $ip' $conffile)
 		UpdateList $var
 		echo "This is the updated list with the new IP address added to it."
 		ShowList
