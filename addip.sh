@@ -1,7 +1,7 @@
 #!/bin/bash
 #This script adds an IP address to the trusted ones on the webserver.
 #This scripts can be run inside the webserver but it requires server restart to take effect.
-#This script requires to have installed jq, this can be done doing sudo apt-install jq or sudo sudo yum install jq.
+#This script requires jq, because it uses jq to read and write conf.json.
 #To add an ip you have to pass the ip as a parameter when executing the script.
 
 #Files location conf.json and backups ↓↓↓↓
