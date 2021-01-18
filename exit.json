@@ -1,0 +1,5 @@
+{
+  "name": "Shut Down",
+  "script_path": "/work/scripts/exit.sh",
+  "description": "This script SHUTS DOWN the ScriptServer web appliaction."
+}
